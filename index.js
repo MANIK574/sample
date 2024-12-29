@@ -23,7 +23,7 @@ let person = {
 
 greeting(); // Call the function to see the message
 console.log(person.name);
-/*function a(callback){
+function a(callback){
     setTimeout(()=>{
         console.log("hello");
         callback();
@@ -36,9 +36,9 @@ function b(){
 a()
 b()
 //a(b)
- */
+ 
 
-/*
+
 function attendance(callback) {
     console.log("Taking attendance...");
     setTimeout(() => {
@@ -61,11 +61,11 @@ function goingHome() {
 
 
 
-// Start the process
+
 attendance(() => {lunch(() => {goingHome();});});
 */
 
-/*
+
 function attendance() {
     return new Promise((resolve) => {
         console.log("Taking attendance...");
@@ -102,7 +102,7 @@ attendance()
 
 
 
-// Function to simulate taking attendance
+
 function takeAttendance() {
     return new Promise((resolve) => {
         setTimeout(() => {
