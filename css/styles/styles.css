@@ -1,0 +1,40 @@
+p{
+    background-image:url("images/pleasant.jpg");
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+}
+#welcome{
+    
+    font-style: italic;
+    opacity: 50%;
+    background-image: url("images/pleasant.jpeg");
+
+
+}
+a.james{
+    color: teal;
+    font-style: calc();
+}
+p,h2,#welcome,.james{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    background-image: url("images/pleasant.jpg");
+}
+#wel{
+    color: purple;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    opacity: 50%;
+}
+body {
+    background-image:url("resources\james.jpeg");
+}
+ 
+
+
+/*
+style selectors :tag,id,class,universal selector (applies to all the page),grouping selector
+link id by # infront
+link id by . infront
+*/
