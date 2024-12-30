@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import './App.css';
 import backgroundImage from './image.png'; // Import the image
 
-function App() {
+function Cat() {
   const [formData, setFormData] = useState({
     name: '',
-    nickname: '',
+    nicknamer: '',
     address: '',
     phone: '',
     memories: '',
